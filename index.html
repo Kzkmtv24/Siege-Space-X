@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Siege Space X</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
+}
+
+body{
+background:#03030d;
+color:white;
+line-height:1.6;
+background-image:
+radial-gradient(white 1px, transparent 1px),
+radial-gradient(white 1px, transparent 1px);
+background-size:60px 60px;
+background-position:0 0,30px 30px;
+}
+
+.hero{
+height:75vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+background:
+linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.95)),
+url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa");
+
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:80px;
+letter-spacing:6px;
+text-shadow:0 0 25px cyan;
+}
+
+.hero p{
+margin-top:15px;
+font-size:22px;
+opacity:0.8;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:80px 25px;
+}
+
+.section{
+margin-bottom:80px;
+position:relative;
+padding-left:25px;
+}
+
+.section::before{
+content:"";
+position:absolute;
+left:0;
+top:5px;
+height:100%;
+width:3px;
+background:linear-gradient(to bottom, cyan, transparent);
+}
+
+.section h2{
+font-size:32px;
+margin-bottom:25px;
+color:#7ffcff;
+}
+
+.box{
+border:1px solid rgba(255,255,255,0.08);
+border-radius:12px;
+padding:28px;
+background:rgba(255,255,255,0.03);
+}
+
+.textbox{
+border:1px dashed rgba(255,255,255,0.25);
+border-radius:8px;
+padding:20px;
+}
+
+.prototype-img{
+width:100%;
+max-width:600px;
+border-radius:10px;
+border:1px solid rgba(255,255,255,0.2);
+margin-top:20px;
+}
+
+.team{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.member{
+border:1px solid rgba(255,255,255,0.08);
+border-radius:12px;
+padding:25px;
+background:rgba(255,255,255,0.03);
+text-align:center;
+}
+
+footer{
+margin-top:70px;
+padding:45px;
+text-align:center;
+opacity:0.6;
+border-top:1px solid rgba(255,255,255,0.1);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+<h1>SIEGE SPACE X</h1>
+<p>Interplanetary Strategy Card Game</p>
+</div>
+
+<div class="container">
+
+<div class="section">
+<h2>Project Description</h2>
+<div class="box">
+<div class="textbox">
+Siege Space is a card game that has its own history with different characters from different planets and systems. Those races then fight against each other to protect their systems or to destroy others.
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Functional Requirements</h2>
+<div class="box">
+<div class="textbox">
+The game is played between 2 or more people. Each player gets an equal amount of in-game money, which they can use to buy their fighters (characters). Each character has their own skills and abilities. There are different types of characters like support characters, who help to earn more money during the game, fighters, who fight and destroy enemy fighters, and more. The player who ends up destroying other players' fighting squads and survives wins.
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Technical Requirements</h2>
+<div class="box">
+<div class="textbox">
+JavaScript, GitHub Repository, and a hosting platform will be used to deploy our product's website.
+</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Sketches / Prototype</h2>
+<div class="box">
+<div class="textbox">
+</div>
+
+<img src="prototype.jpg" class="prototype-img">
+
+
+
+  
+</div>
+</div>
+
+<div class="section">
+<h2>About the Authors</h2>
+
+<div class="team">
+
+<div class="member">
+<b>Author 1 — Assan</b><br><br>
+Assan worked on the game's visual aspect and added some ideas to the game, helping it to get more entertaining.
+</div>
+
+<div class="member">
+<b>Author 2 — Bashir</b><br><br>
+Bashir worked on the game's functionality while also helping to develop some ideas to improve the game.
+</div>
+
+</div>
+
+</div>
+
+<div class="section">
+<h2>Additional Project Information</h2>
+<div class="box">
+<div class="textbox">
+We are planning to finish the prototype of this game with all the characters being developed by mid-May 2026.
+
+If the product is successful, we are going to donate some of the money to help the school with IB accreditation.
+
+In the future, we could improve our product by adding an animation or even a serial to our existing book.
+</div>
+</div>
+</div>
+
+</div>
+
+<footer>
+Siege Space X — Strategy Beyond the Stars
+</footer>
+
+</body>
+</html>
